@@ -1,12 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
+import Dashboard from './Pages/Dashboard';
+
 function App() {
     return (
       <>
         <BrowserRouter >
           <Routes >
-            <Route path='/' element={<div className='text-5xl text-center'>Helping everyone</div>} />
+            <Route path='/' element={<Dashboard />} />
 
           </Routes>
         </BrowserRouter>
