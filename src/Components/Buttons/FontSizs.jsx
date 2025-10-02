@@ -46,7 +46,6 @@ const FontSizeButton = () => {
               </li>
             ))}
           </ul>
-         
         </div>
       )}
     </div>

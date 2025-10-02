@@ -6,6 +6,7 @@ import { ImageButton } from "../Components/Buttons/ImageButton"
 import ItalicButton from "../Components/Buttons/ItalicButton"
 import PickColorButton from "../Components/Buttons/PickColorButton"
 import TextAlignButton from "../Components/Buttons/TextAlignButton"
+import { TextArea } from "../Components/TextArea"
 import UnderlineButton from "../Components/Buttons/UnderlineButton"
 import TextEditorFeature from "../Components/TextEditorFeature"
 
@@ -24,8 +25,11 @@ const Dashboard = () => {
                <HrefButton />
                <ImageButton />
             </TextEditorFeature>
-            
+            <div className="mt-1">
+               <TextArea >
 
+               </TextArea>
+            </div>
          </div>      
       </>
    )
