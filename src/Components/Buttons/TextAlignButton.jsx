@@ -34,7 +34,6 @@ const TextAlignButton = () => {
                   </div>
                )
             }
-
          </div>
       </>
    )

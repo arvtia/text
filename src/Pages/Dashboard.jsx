@@ -1,6 +1,8 @@
 import BoldButton from "../Components/Buttons/BoldButton"
 import FontSelectButton from "../Components/Buttons/FontSelect"
 import FontSizeButton from "../Components/Buttons/FontSizs"
+import HrefButton from "../Components/Buttons/HrefButton"
+import { ImageButton } from "../Components/Buttons/ImageButton"
 import ItalicButton from "../Components/Buttons/ItalicButton"
 import PickColorButton from "../Components/Buttons/PickColorButton"
 import TextAlignButton from "../Components/Buttons/TextAlignButton"
@@ -10,7 +12,7 @@ import TextEditorFeature from "../Components/TextEditorFeature"
 const Dashboard = () => {
    return (
       <>
-         <div className="max-w-7xl mx-auto bg-neutral-200 rounded-md p-6 mt-3">
+         <div className="max-w-3xl mx-auto bg-gray-100  md:p-6">
             <TextEditorFeature>
                <FontSelectButton />
                <FontSizeButton />
@@ -19,6 +21,8 @@ const Dashboard = () => {
                <UnderlineButton />
                <PickColorButton />
                <TextAlignButton />
+               <HrefButton />
+               <ImageButton />
             </TextEditorFeature>
 
          </div>      
