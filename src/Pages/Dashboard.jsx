@@ -13,24 +13,26 @@ import TextEditorFeature from "../Components/TextEditorFeature"
 const Dashboard = () => {
    return (
       <>
-         <div className="max-w-3xl mx-auto bg-gray-100  md:p-6">
-            <TextEditorFeature>
-               <FontSelectButton />
-               <FontSizeButton />
-               <BoldButton />
-               <ItalicButton />
-               <UnderlineButton />
-               <PickColorButton />
-               <TextAlignButton />
-               <HrefButton />
-               <ImageButton />
-            </TextEditorFeature>
-            <div className="mt-1">
-               <TextArea >
+         <div className="w-full bg-gray-100">
+            <div className="max-w-3xl mx-auto bg-gray-100  md:p-6">
+               <TextEditorFeature>
+                  <FontSelectButton />
+                  <FontSizeButton />
+                  <BoldButton />
+                  <ItalicButton />
+                  <UnderlineButton />
+                  <PickColorButton />
+                  <TextAlignButton />
+                  <HrefButton />
+                  <ImageButton />
+               </TextEditorFeature>
+               <div className="mt-1">
+                  <TextArea >
 
-               </TextArea>
-            </div>
-         </div>      
+                  </TextArea>
+               </div>
+            </div>        
+         </div> 
       </>
    )
 }
