@@ -46,9 +46,7 @@ const FontSizeButton = () => {
               </li>
             ))}
           </ul>
-          <p className="px-4 py-2 text-sm text-gray-500 border-t">
-            Or enter custom value
-          </p>
+         
         </div>
       )}
     </div>
